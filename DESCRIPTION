@@ -1,0 +1,14 @@
+Package: SuperAdap
+Type: Package
+Title: The Two-Stage Programming Method in Matched Observational Studies
+Version: 0.1.0
+Author: Siyu Heng, Hyunseung Kang, Dylan S. Small, and Colin B. Fogarty
+Maintainer: Siyu Heng <siyuheng@sas.upenn.edu>
+Description: R package for performing a sensitivity analysis in matched observational studies with the two-stage programming method.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.3)
+Imports: stats
+Suggests: gurobi, Matrix, mvtnorm
+RoxygenNote: 7.1.1
