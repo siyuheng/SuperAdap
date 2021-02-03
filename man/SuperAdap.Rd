@@ -8,18 +8,18 @@ via the two-stage programming method}
 SuperAdap(Q, Z, index, alpha, Gamma, alternative)
 }
 \arguments{
-\item{Q}{A N times 2 matrix of scores of the two component sum test statistics,
+\item{Q}{An N by 2 matrix of scores of the two component sum test statistics,
 where N is the total number of units in the study. That is, the n-th
 entry of the first column of \code{Q} is the score of the first component test
 statistic of unit n and the n-th entry of the second column of \code{Q} is the
 score of the second component test statistic of unit n.}
 
-\item{Z}{A N-length vector of the treatment indicators of all N units in the
+\item{Z}{An N-length vector of the treatment indicators of all N units in the
 study: 1 if treated and 0 if not. The n-th entry of \code{Z} is the treatment
 indicator of unit n. Note that in each matched set there is one and only
 one treated unit.}
 
-\item{index}{A N-length vector of the matched set indexes of all N units in
+\item{index}{An N-length vector of the matched set indexes of all N units in
 the study, taking value from 1 to I, where I is the total number of
 matched sets. That is, the n-th entry of \code{index} is the matched
 set index of unit n.}
