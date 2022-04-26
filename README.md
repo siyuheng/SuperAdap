@@ -7,7 +7,7 @@ Siyu Heng, Hyunseung Kang, Dylan S. Small, and Colin B. Fogarty
 Siyu Heng (Email: <siyuheng@sas.upenn.edu>)
 
 ## Description
-**SuperAdap** is R package for performing a sensitivity analysis in matched observational studies with the two-stage programming method proposed in the paper "Increasing Power for Observational Studies of Aberrant Response: An Adaptive Approach" by Heng, Kang, Small, and Fogarty. 
+**SuperAdap** is an R package for performing a sensitivity analysis in matched observational studies with the two-stage programming method proposed in the paper "Increasing Power for Observational Studies of Aberrant Response: An Adaptive Approach" by Heng, Kang, Small, and Fogarty. 
 
 Before installing this R package, please ensure that you have installed the following three R packages: **gurobi**, **Matrix**, **mvtnorm**. To install this package in R from GitHub, please run the following commands:
 
@@ -17,4 +17,4 @@ library(devtools)
 install_github("siyuheng/SuperAdap")
 ```
 ## Reference
-Heng, S., Kang, H., Small, D. S., and Fogarty, C. B. (2020). Increasing power for observational studies of aberrant response: An adaptive approach. arXiv:1907.06770.
+Heng, S., Kang, H., Small, D. S., and Fogarty, C. B. (2021). "Increasing power for observational studies of aberrant response: an adaptive approach." Journal of the Royal Statistical Society: Series B (Statistical Methodology), 83(3), 482-504.
